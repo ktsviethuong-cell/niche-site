@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartHome Review - Chuyên Trang Đánh Giá Thiết Bị Gia Dụng & Nhà Thông Minh</title>
+    <meta name="description" content="Đánh giá chi tiết, khách quan các thiết bị nhà thông minh, robot hút bụi, khóa cửa vân tay và đồ gia dụng cao cấp giúp bạn xây dựng tổ ấm tiện nghi.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background glows -->
+    <div class="bg-glow orb-1"></div>
+    <div class="bg-glow orb-2"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i data-lucide="home" class="logo-icon"></i>
+                <span>SmartHome <span>Review</span></span>
+            </a>
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="#" class="active" data-filter="all">Tất Cả</a>
+                <a href="#" data-filter="robot">Robot Hút Bụi</a>
+                <a href="#" data-filter="security">An Ninh & Khóa</a>
+                <a href="#" data-filter="kitchen">Thiết Bị Bếp</a>
+                <a href="#" data-filter="lighting">Chiếu Sáng</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-btn" id="theme-toggle-btn" title="Đổi chế độ sáng/tối">
+                    <i data-lucide="moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <span class="hero-tagline"><i data-lucide="sparkles"></i> Đánh Giá Bằng Trải Nghiệm Thực Tế & AI</span>
+            <h1>Nâng Cấp Tổ Ấm Với Công Nghệ Hiện Đại</h1>
+            <p>Khám phá các thiết bị gia dụng và nhà thông minh tốt nhất giúp cuộc sống của bạn trở nên dễ dàng, tiện nghi và tiết kiệm năng lượng hơn.</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="num">50+</span>
+                    <span class="label">Sản Phẩm Đã Review</span>
+                </div>
+                <div class="stat-item">
+                    <span class="num">100%</span>
+                    <span class="label">Khách Quan & Trung Thực</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Container -->
+    <main class="main-layout">
+        <!-- Section: Featured Review (Bài viết nổi bật) -->
+        <section class="featured-section" id="featured-post-container">
+            <!-- Will be populated by JS -->
+            <div class="loading-spinner"></div>
+        </section>
+
+        <!-- Section: Grid of Products & Reviews -->
+        <section class="grid-section">
+            <div class="section-title">
+                <h2>Bài Đánh Giá Mới Nhất</h2>
+                <p>Khám phá những thiết bị vừa được lên sóng review chi tiết tuần này</p>
+            </div>
+            
+            <div class="reviews-grid" id="reviews-grid">
+                <!-- Will be populated dynamically by JS -->
+                <div class="loading-spinner"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for Detailed Article View -->
+    <div class="article-modal" id="article-modal">
+        <div class="modal-overlay" id="modal-close-overlay"></div>
+        <div class="modal-content glass-card">
+            <button class="close-btn" id="close-modal-btn">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="modal-body" id="modal-article-body">
+                <!-- Content will be injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <i data-lucide="home" class="logo-icon"></i>
+                    <span>SmartHome <span>Review</span></span>
+                </a>
+                <p>Chuyên trang chia sẻ kiến thức, kinh nghiệm chọn mua và lắp đặt thiết bị nhà thông minh tốt nhất tại Việt Nam.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Đường Dẫn Nhanh</h4>
+                <a href="#" data-filter="all">Tất cả bài viết</a>
+                <a href="#" data-filter="robot">Robot Hút Bụi</a>
+                <a href="#" data-filter="security">Khóa thông minh</a>
+            </div>
+            <div class="footer-disclaimer">
+                <p>© 2026 SmartHome Review. Tất cả quyền được bảo lưu.</p>
+                <p class="affiliate-disclosure">Tuyên bố miễn trừ trách nhiệm: Trang web có chứa các liên kết tiếp thị liên kết (Affiliate Links). Chúng tôi có thể nhận được một khoản hoa hồng nhỏ khi bạn mua hàng thông qua liên kết này mà không tốn thêm bất kỳ chi phí nào.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="data/posts.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
