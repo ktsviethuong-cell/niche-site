@@ -7,7 +7,7 @@ window.nichePosts = [
         "category": "home",
         "categoryLabel": "Gia dụng",
         "image": "https://images.unsplash.com/photo-1621972750749-0fbb1abb7736?w=300&auto=format&fit=crop&q=60",
-        "date": "2026-06-07T16:01:58.646Z",
+        "date": "2026-06-07T16:02:46.766Z",
         "author": "KTS Minh Trí",
         "productName": "Nồi Chiên Không Dầu Philips HD9270/90 XL 6.2L",
         "productPrice": "Xem chi tiết cửa hàng",
