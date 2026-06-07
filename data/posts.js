@@ -7,7 +7,7 @@ window.nichePosts = [
         "category": "tech",
         "categoryLabel": "Công nghệ",
         "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=300&auto=format&fit=crop&q=60",
-        "date": "2026-06-07T16:05:29.343Z",
+        "date": "2026-06-07T16:07:23.120Z",
         "author": "KTS Minh Trí",
         "productName": "Tai Nghe Không Dây Baseus Bowie WM02 Nhỏ Gọn Xinh Xắn",
         "productPrice": "Xem chi tiết cửa hàng",
