@@ -7,7 +7,7 @@ window.nichePosts = [
         "category": "tech",
         "categoryLabel": "Công nghệ",
         "image": "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=300&auto=format&fit=crop&q=60",
-        "date": "2026-06-08T01:46:19.973Z",
+        "date": "2026-06-08T01:47:02.349Z",
         "author": "KTS Minh Trí",
         "productName": "Loa Bluetooth Di Động Chống Nước JBL Charge 5",
         "productPrice": "Xem chi tiết cửa hàng",
